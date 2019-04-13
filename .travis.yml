@@ -6,4 +6,4 @@ before_install:
   - docker build -t moatef1/docker-react -f Dockerfile.dev .
    
 script:
-  - docker run motef1/docker-react npm run test -- -- coverage
+  - docker run moatef1/docker-react npm run test -- -- coverage
